@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./images/retro-living-room-interior-design.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+
+    flex-direction: row;
+     justify-content: space-around; 
+}
+.navbar1{
+    color: white;
+}
+.navbar2{
+    width: 40%;
+    display: flex;
+justify-content: space-between;  
+margin-top: 20px;
+color: white;  
+   
+}
+.navbar3{
+    width: 18%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+
+}
+
+
+.phoneimg{
+    background-color: #fff;
+    height: 30px;
+    width: 30px;
+    margin-left: 150px;
+    color: white;
+   
+}
+.mainpage{
+    height: 80vh;
+    display: flex;
+}
+.content-left{
+    margin-top: 100px;
+    margin-left: 80px;
+    border-radius: 20px;
+   
+    color: white;
+
+}
+
+.learn{
+    width: 200px;
+    height: 50px;
+    margin-top: 30px;
+    color: white;
+    border-radius: 20px;
+    background: transparent;
+    border-color: white;
+
+}
+.content-right{
+    
+    color: white;
+}
+.content1{
+    font-size: 80px;
+    font-weight: bold;
+}
+.bgcpuzzle{
+    width: 60px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 20px;
+    padding-left: 20px;
+    margin-bottom: 5px;
+}
+.puzzle{
+    width: 35px;
+    height: 30px;
+   
+}
+.content2{
+    margin-top: 30px;
+    margin-left: 220px;
+    background-color: #304657;
+    height: 100px;
+    width: 250px;
+   padding-left: 30px;
+    padding-top: 30px;
+   
+}
+.content-middle{
+    margin-top: 200px;
+    background-color: #304657;
+    height: 100px;
+    width: 250px;
+   padding-left: 30px;
+    padding-top: 30px;
+   
+}
+
+.bgcbulb{
+    width: 60px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 20px;
+    padding-left: 20px;
+    margin-bottom: 5px;
+   
+}
